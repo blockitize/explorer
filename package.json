@@ -9,7 +9,8 @@
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit"
+    "type-check": "vue-tsc --noEmit",
+    "vercel-build": "yarn install --frozen-lockfile && yarn build"
   },
   "dependencies": {
     "@chenfengyuan/vue-countdown": "2",
