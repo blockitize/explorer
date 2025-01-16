@@ -11,7 +11,12 @@ module.exports = {
         main: 'var(--text-main)',
         secondary: 'var(--text-secondary)',
         active: 'var(--bg-active)',
-      }
+        dark: '#0a0a0a',
+        'dark-light': '#1a1a1a',
+      },
+      fontFamily: {
+        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+      },
     },
   },
   plugins: [require('daisyui')],
